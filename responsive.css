@@ -1,15 +1,23 @@
 @media screen and (min-width:300px) and (max-width:1024px) {
     html, body {
-        font-size: 100%
+        font-size: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    div.box {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
     }
     .menu {
         display: none;
     }
-    .content {
+    div.content {
         width: 100%;
+        height: 100%;
         float: none;
         margin: 0 auto;
-        height: 100%;
         position: initial;
     }
     .content > img {
@@ -19,6 +27,17 @@
     .content > h1 {
         width: 100%;
         min-width: 100%;
+        font-weight: 500;
+        font-size: 65px;
+        margin: 0 auto;
+    }
+    div.content > h1 > span {
+        font-size: 59px;
+    }
+    div.center_2 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
     }
     .banner_Hero {
         width: 100%;
@@ -42,7 +61,6 @@
         position: relative;
         width: 100%;
         margin-top: 2rem;
-        min-width: 400px;
     }
     .align::after {
         display: none;
@@ -51,8 +69,11 @@
         flex-direction: column;
         margin: 5rem auto;
         height: 100%;
+        width: 100%;
     }
     .category {
+        width: 100%;
+        max-width: 100%;
         flex-direction: column;
         margin: 2rem auto;
         height: 100%;
@@ -218,11 +239,13 @@
         right: 0;
     }
     .blur {
-    width: 305px;
-    height: 404px;
-    top: 10vh;
-    right: 0%;
-    left: 0;
-
+        width: 305px;
+        height: 404px;
+        top: 10vh;
+        right: 0%;
+        left: 0;
+    }
+    .box_coll {
+        width: 100%;
     }
 }
