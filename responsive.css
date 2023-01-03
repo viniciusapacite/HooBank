@@ -40,6 +40,9 @@
         width: 100%;
         max-width: 100%;
     }
+    div.center_3  {
+        margin-top: 2rem;
+    }
     .banner_Hero {
         width: 100%;
         float: none;
@@ -68,19 +71,26 @@
     } 
     div.experience {
         flex-direction: column;
-        margin: 5rem 0;
-        height: 100%;
+        flex-wrap: nowrap;
         text-align: left;
+        margin: 3rem 0;
+        height: 100%;
         width: 100%;
     }
     .category {
         width: 100%;
         max-width: 100%;
-        flex-direction: column;
+        align-items: left;
         justify-content: left;
         text-align: left;
-        margin: 2rem 0;
+        margin: 1rem 0;
         height: 100%;
+    }
+    .category > h2 {
+        font-size: 35px;
+    }
+    .category > p {
+        margin-left: 20px;
     }
     .category > span {
         display: none;
@@ -91,7 +101,7 @@
         margin: 0 auto;
     }
     .left > h1 {
-        font-size: 50px;
+        font-size: 45px;
         font-weight: 500;
     }
     .left > p {
@@ -182,6 +192,7 @@
         flex-direction: column;
         margin: 0 auto;
         width: 100%;
+        height: 100%;
         text-align: left;
     }
     .card {
@@ -190,7 +201,7 @@
         text-align: left;
     }
     .card > h1 {
-        font-size: 50px;
+        font-size: 45px;
         width: 100%;
         font-weight: 500;
     }
@@ -199,7 +210,7 @@
     }
     .center_7 {
         width: 100%;
-        margin: 15rem auto;
+        margin: 8rem auto;
     }
     .box_1 {
         margin: 0 auto;
@@ -228,7 +239,7 @@
         gap: 40px;
         height: 100%;
         margin: 0 auto;
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
     .line_row > img {
         margin: 0 auto;
