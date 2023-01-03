@@ -1,0 +1,228 @@
+@media screen and (min-width:300px) and (max-width:1024px) {
+    html, body {
+        font-size: 100%
+    }
+    .menu {
+        display: none;
+    }
+    .content {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        height: 100%;
+        position: initial;
+    }
+    .content > img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .content > h1 {
+        width: 100%;
+        min-width: 100%;
+    }
+    .banner_Hero {
+        width: 100%;
+        float: none;
+        height: 100%;
+        position: initial;
+    }
+    .banner_Hero::after {
+        display: none;
+    }
+    .banner_Hero::before {
+        display: none;
+    }
+    .align {
+        position: initial;
+        float: none;
+        z-index: 1;
+    }
+    .align > img {
+        float: none;
+        position: relative;
+        width: 100%;
+        margin-top: 2rem;
+        min-width: 400px;
+    }
+    .align::after {
+        display: none;
+    } 
+    .experience {
+        flex-direction: column;
+        margin: 5rem auto;
+        height: 100%;
+    }
+    .category {
+        flex-direction: column;
+        margin: 2rem auto;
+        height: 100%;
+    }
+    .category > span {
+        display: none;
+    }
+    .left {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .right {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .box_row  {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .center_4 {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left_2 {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .right_2  {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .content_card  {
+        width: 100%;
+        height: 100%;
+        margin: 5rem auto;
+    }
+    .content_card  > p {
+        width: 100%;
+        height: 100%;
+    }
+    .center_5 {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .left_3 {
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+    .right_3 {
+        width: 100%;
+        height: 100%;
+        float: none;
+        margin: 4rem auto;
+        text-align: center;
+    }
+    .analysis {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .analysis > img {
+        margin: 0 auto;
+        margin-top:5rem;
+        text-align: left;
+    }
+    .content_car_2 {
+        width: 100%;
+        height: 100%;
+    }
+    .content_car_2 > p {
+        width: 100%;
+    }
+    .center_6 {
+        width: 100%;
+        height: 100%;
+    }
+    .col_flex {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+    }
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .text_into {
+        width: 100%;
+    }
+    .center_7 {
+        width: 100%;
+        margin: 10rem auto;
+    }
+    .box_1 {
+        margin: 0 auto;
+    }
+    .card_buy {
+        width: 100%;
+        margin: 2rem auto;
+        text-align: center;
+        float: none;
+    }
+    .card_buy > img {
+        width: 100%;
+        max-width: 90%;
+        min-width:60%;
+        height: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+    .line {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+    .line_row {
+        flex-direction: column;
+        gap: 40px;
+        height: 100%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+    .line_row > img {
+        margin: 0 auto;
+    }
+    .service {
+        width: 100%;
+        height: 100%;
+    }
+    .box_1 {
+        min-width: 100%;
+        margin-top: 3rem;
+    }
+    .serv_col {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .serv_col > h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+    .serv_col > p {
+        width: 100%;
+        height: 100%;
+    }
+    .serv_col > button {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .blur {
+    width: 305px;
+    height: 404px;
+    top: 10vh;
+    right: 0%;
+    left: 0;
+
+    }
+}
