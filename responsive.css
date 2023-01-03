@@ -6,6 +6,9 @@
     .mobile_toggle {
         display: none;
     }
+    #menu_mobile > a{
+        display: none;
+    }
 }
 
 @media screen and (min-width:300px) and (max-width:1024px) {
