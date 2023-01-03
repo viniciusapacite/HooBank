@@ -137,6 +137,7 @@ html, body {
 }
 .banner_Hero::after {
     content: '';
+    display: none;
     width: 0; 
     height:0; 
     border-left: 300px solid #214d761a;
@@ -153,7 +154,7 @@ html, body {
 }
 .banner_Hero::before {
     content: '';
-    display: block;
+    display: none;
     width: 405px;
     height: 471px;
     border-radius: 400px;

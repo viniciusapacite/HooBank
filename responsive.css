@@ -45,10 +45,10 @@
         height: 100%;
         position: initial;
     }
-    .banner_Hero::after {
+     div.banner_Hero::after{
         display: none;
     }
-    .banner_Hero::before {
+    div.banner_Hero::before {
         display: none;
     }
     .align {
@@ -239,11 +239,7 @@
         right: 0;
     }
     .blur {
-        width: 305px;
-        height: 404px;
-        top: 10vh;
-        right: 0%;
-        left: 0;
+        display: none;
     }
     .box_coll {
         width: 100%;
