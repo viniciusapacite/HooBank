@@ -12,6 +12,9 @@ html, body {
     margin: 0 auto;
 }
 
+#menu_mobile{
+    display: none;
+}
 .clear {
     clear: both;
 }
