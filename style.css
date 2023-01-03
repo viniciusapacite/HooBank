@@ -1,6 +1,8 @@
 @import url(responsive.css);
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
+/* aqui começa */
+
 html, body {
     background-color: #080C17;
     min-height: 100vh;
