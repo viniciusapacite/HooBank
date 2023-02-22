@@ -1,4 +1,23 @@
 /* vinicius apacite */
+@media screen and (min-width:300px){
+    
+    div.align > img {
+        position: absolute;
+        padding: 10px 0;
+        margin-left: 9.4%;
+        width: 100%;
+        max-width: 100%;
+        left:0;
+        z-index: 100;
+        text-align: end;
+    }
+
+    div.align {
+        position: relative;
+        z-index: 10;
+    }
+}
+
 @media screen and (min-width:1024px){
     .menu_mobile {
         display: none;
@@ -386,5 +405,7 @@
         width: 100%;
         justify-content: space-around;
     }
+
+
 
 }
